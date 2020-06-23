@@ -1,0 +1,159 @@
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{    
+    font-family: 'Oswald', sans-serif; 
+}
+
+
+.form-container{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../img/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+.form-box{
+    height: 380px;
+    width: 700px;
+    background: #fff;
+    margin: 10% auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px 30px 30px 30px; 
+}
+.info-part{
+    width: 268.611px;
+    height: 100%;
+}
+#form-part{
+    margin: -15px 0 0px 45%;
+    
+}
+
+.img-part img{
+    height: 100%;
+    position: absolute;
+    border-radius: 30px 0 0 30px;
+    box-shadow:10px 0px 10px -5px grey;  
+}
+
+
+.btn-box{
+    width: 190px;
+    height: 30px;
+    box-shadow: 0 0 10px 0px #bcbaba;
+    position: relative;
+    margin: 55px auto;
+    border-radius: 30px;
+    
+}
+
+#style{   
+    background-color:#c7252b;
+    border-radius: 30px;
+    height: 100%;
+    padding:0.5px 30px;
+    color: #fff;
+    position: absolute;
+    right: -1px;
+}
+
+#font,
+#style{
+    font-family: 'Dosis', sans-serif;
+    font-size: 13px; 
+    font-weight: 500;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#font{
+    color: #000000;
+    padding-left: 22px;
+    background: transparent;
+}
+
+
+.user-img img{
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 10px;
+    
+    
+}
+
+.form-main{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control{
+    width: 260px;
+    margin: 0 auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #c7252b;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 5px
+}
+
+.checkbox{
+    margin: 10px;
+}
+span{
+    font-size: 12px;
+    position: absolute;
+    bottom: 85px;
+    right: 149px;
+    color: rgba(128, 128, 128, 0.77);
+}
+
+
+.form-btn{
+    width:80px; 
+    padding: 7px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+    background: #c7252b;
+    border-radius: 30px;
+    color: #fff; 
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 75px;
+   
+}
+
+
+.form-btn:hover{
+    background: #282828; 
+}
+
+a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: #503838; 
+}
+
+.reset{
+    text-align: center;
+    margin-left: 23px;
+}
